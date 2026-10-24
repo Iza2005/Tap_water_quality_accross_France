@@ -52,3 +52,7 @@ Although the data shows satisfying informations, there are still some points to 
 - Samples taken upstream are reported for every network they feed
 - Sampling frequency differs between networks, and network size is a proxy, not the population served.
 - Overseas departments are not on the map, since the current year is incomplete
+
+## Video demonstration link :
+
+https://drive.google.com/file/d/1tUpLzwdfLqelnLTMUK2gXj4TNNrJ0SY8/view?usp=sharing
