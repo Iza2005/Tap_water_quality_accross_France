@@ -6,7 +6,7 @@ This project aims to visualize sanitary control of tap water in France, which is
 - Résultats du contrôle sanitaire de l'eau distribuée commune par commune, Ministère de la Santé (SISE-Eaux), data.gouv.fr
   https://www.data.gouv.fr/datasets/resultats-du-controle-sanitaire-de-leau-distribuee-commune-par-commune
 - Licence Ouverte / Open Licence 2.0
-- Files used : national yearly zips `dis-YYYY.zip` from 2016 to 2026, each with `DIS_PLV` (samples), `DIS_RESULT` (analyses) and `DIS_COM_UDI` (commune/network links).
+- Files used : national yearly zips `dis-YYYY.zip` from 2016 to 2026, each with `DIS_PLV` (samples), `DIS_RESULT` (analyses) and `DIS_COM_UDI` (commune/network links). All the data zip files in the data/raw/ (2016 to 2026) were too heavy to upload on teams, so, to download the data, go to the "Fichiers" section in the https://www.data.gouv.fr/datasets/resultats-du-controle-sanitaire-de-leau-distribuee-commune-par-commune page, and download all the dis-year.zip files to transfer into data/raw/ section in the project.
 - Map contours : https://github.com/gregoiredavid/france-geojson (`data/departements.geojson`).
 
 ## Story
