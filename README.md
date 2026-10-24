@@ -1,6 +1,6 @@
 # Is tap water equally safe across France ?
 
-This project aims to visualize sanitary control of tap water in France, which is demonstrated with a Streamlit app you can run. By the end, you will understand which department is the most concentrated with failed standards, and how your commune is affected.
+This project aims to visualize sanitary control of tap water in France, which is demonstrated with a Streamlit app. By the end, you will understand which department is the most concentrated with failed standards, how your commune is affected, and if you can still continue to drink tap water.
 
 ## Dataset
 - Résultats du contrôle sanitaire de l'eau distribuée commune par commune, Ministère de la Santé (SISE-Eaux), data.gouv.fr
@@ -10,16 +10,14 @@ This project aims to visualize sanitary control of tap water in France, which is
 - Map contours : https://github.com/gregoiredavid/france-geojson (`data/departements.geojson`).
 
 ## Story
-- The targeted audience are the residents and local officials, so they can visualize better these informations.
+The targeted audience are the residents and local officials. I want to offer them, and myself, clarity on their daily water consumption. With this data, several questions need to be answered : 
 
-- Questions : 
 1. How often does tap water fail the standards, and is it improving? 
 2. Which departments are most affected ?
 3. Are small networks more exposed ?
 4. Where do nitrates exceed 50 mg/L?
 
-- Arc : hook and context → national KPIs and trend → map and ranking of départements → network size → commune lookup → insights, implications, limitations.
-- We compare regions with map and ranking, and changes over time.
+To brings answers, you will find : context → national KPIs and trend → map and ranking of departments → network size → commune lookup → insights, implications and limitations. Regions are compared with map and ranking, and changes over time.
 
 ## Data work (`utils/prep.py`)
 
@@ -48,6 +46,8 @@ streamlit run app.py
 Deployment with Streamlit Community Cloud : push the repo with `data/*.parquet`, `data/quality.json` and `data/departements.geojson`, and without `data/raw/`.
 
 ## Limitations
+
+Although the data shows satisfying informations, there are still some points to acknowledge :
 - A non-compliant sample is not necessarily a health risk
 - Samples taken upstream are reported for every network they feed
 - Sampling frequency differs between networks, and network size is a proxy, not the population served.
