@@ -1,0 +1,57 @@
+{
+  "2016": {
+    "plv_raw": 398366,
+    "plv_kept": 398366,
+    "no3_samples": 113928
+  },
+  "2017": {
+    "plv_raw": 402015,
+    "plv_kept": 402015,
+    "no3_samples": 117659
+  },
+  "2018": {
+    "plv_raw": 403663,
+    "plv_kept": 403663,
+    "no3_samples": 117933
+  },
+  "2019": {
+    "plv_raw": 409081,
+    "plv_kept": 409081,
+    "no3_samples": 119268
+  },
+  "2020": {
+    "plv_raw": 406865,
+    "plv_kept": 406865,
+    "no3_samples": 118964
+  },
+  "2021": {
+    "plv_raw": 402874,
+    "plv_kept": 402874,
+    "no3_samples": 116823
+  },
+  "2022": {
+    "plv_raw": 408107,
+    "plv_kept": 408107,
+    "no3_samples": 118327
+  },
+  "2023": {
+    "plv_raw": 411970,
+    "plv_kept": 411970,
+    "no3_samples": 119119
+  },
+  "2024": {
+    "plv_raw": 408520,
+    "plv_kept": 408520,
+    "no3_samples": 117952
+  },
+  "2025": {
+    "plv_raw": 409398,
+    "plv_kept": 409396,
+    "no3_samples": 117686
+  },
+  "2026": {
+    "plv_raw": 201770,
+    "plv_kept": 201769,
+    "no3_samples": 133564
+  }
+}
